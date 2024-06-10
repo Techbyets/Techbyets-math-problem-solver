@@ -14,8 +14,14 @@ First, ensure that your Termux environment is up-to-date and install necessary p
 
 ```bash
 apt update && apt upgrade
+```
 
-pkg install python git
+```
+pkg install python 
+```
+
+```
+pkg install git
 ```
 
 ### 2. Install Required Libraries
@@ -24,7 +30,9 @@ Next, you'll need to install the required Python libraries. Run the following co
 
 ```bash
 pip install sympy
+```
 
+```
 pip install fractions
 ```
 
@@ -44,7 +52,9 @@ You're all set! Navigate to the project directory in your Termux environment and
 
 ```bash
 cd Techbyets-math-problem-solver
+````
 
+```
 python maths.py
 ```
 
